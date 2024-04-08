@@ -1,0 +1,42 @@
+.clicked{
+  background-color: #EC7D10;
+}
+#drum-machine{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #50514F;
+}
+#all-drum{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin:50px;
+  gap:10px;
+  
+}
+.drum-pad{
+  height: 80px;
+  width: 100px;
+  font-size: large;
+  border-radius:10px;
+  box-shadow: 5px 5px 5px  rgba(141, 141, 141, 0.87);
+  
+}
+#display{
+  color:black;
+  background-color: aliceblue;
+  text-align: center;
+  width:250px;
+  height: 50px;
+  margin:20px auto;
+  font-size: x-large;
+  
+}
+#box{
+  background:#BFB6BB;
+  border-radius: 20px;
+  border:solid yellow 5px;
+}
